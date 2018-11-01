@@ -1,0 +1,18 @@
+[Unit]
+Description=MMITSS Performance Observer
+Requisite=siedb.service ieee1609.service mmitssctl.service
+After=siedb.service ieee1609.service mmitssctl.service
+ConditionPathExists=/run/services/mmitss_perf_observer.run
+StartLimitInterval=1min
+StartLimitBurst=2
+
+[Service]
+Type=simple
+Slice=system-comm-app.slice
+ExecStart=/opt/bin/mmitss_perf_observer
+WatchdogSec=0
+Restart=no
+RestartSec=30
+
+[Install]
+WantedBy=sie-its-wave.target

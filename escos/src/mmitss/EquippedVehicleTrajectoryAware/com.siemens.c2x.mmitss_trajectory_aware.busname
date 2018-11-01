@@ -1,0 +1,6 @@
+[Unit]
+Description=MMITSS Trajectory Aware
+
+[BusName]
+Activating=no
+AllowWorld=talk

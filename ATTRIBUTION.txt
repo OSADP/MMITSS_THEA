@@ -1,0 +1,2 @@
+This software is based on the MMITSS-AZ 1.0 software which is copyright of the Arizona Board of Regents on behalf of the University of Arizona with rights
+granted for USDOT OSADP distribution with the Apache 2.0 open source license.

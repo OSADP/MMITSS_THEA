@@ -1,0 +1,19 @@
+[Unit]
+Description=MMITSS controller daemon
+Requisite=siedb.service ieee1609.service spatmap.service
+After=siedb.service ieee1609.service spatmap.service
+ConditionPathExists=/run/services/mmitssctl.run
+StartLimitInterval=1min
+StartLimitBurst=2
+
+[Service]
+Type=dbus
+Slice=system-comm-app.slice
+BusName=com.siemens.c2x.mmitssctl
+ExecStart=/opt/bin/mmitssctl
+WatchdogSec=30
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=sie-its-wave.target
