@@ -36,7 +36,11 @@ Detailed Design Documentation is available through the Connected Vehicle Pooled 
 
 ## Code.Gov Info
 Agency: DOT
+
 Short Description:The MMITSS THEA program is a port of MMITSS-AZ 1.0 (from OSADP) to Siemens Roadside Unit used by the Tampa CV Pilot.
+
 Status: Beta
+
 Tags: transportation,multi-modal, its, cv pilots
+
 Labor Hours: 0
