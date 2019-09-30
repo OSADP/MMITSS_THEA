@@ -31,10 +31,12 @@ limitations under the License.
 ```
 
 ## Documentation
-MMITSS THEA is a software port of the original MMITSS-AZ 1.0 to a different RSU hardware. The documentation for MMITSS-AZ 1.0 can be found on the OSADP under the following link <https://www.itsforge.net/index.php/community/explore-applications/63#/30/63>
-
+MMITSS THEA is a software port of the original MMITSS-AZ 1.0 to a different RSU hardware.
 Detailed Design Documentation is available through the Connected Vehicle Pooled Fund Study website: <http://www.cts.virginia.edu/cvpfs_research/>
 
-## Web sites
-The MMITSS THEA software is distributed through the USDOT's JPO Open Source Application Development Portal (OSADP)
-<http://itsforge.net/>
+## Code.Gov Info
+Agency: DOT
+Short Description:The MMITSS THEA program is a port of MMITSS-AZ 1.0 (from OSADP) to Siemens Roadside Unit used by the Tampa CV Pilot.
+Status: Beta
+Tags: transportation,multi-modal, its, cv pilots
+Labor Hours: 0
